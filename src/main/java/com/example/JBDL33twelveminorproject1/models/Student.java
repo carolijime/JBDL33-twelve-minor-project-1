@@ -48,7 +48,7 @@ public class Student {
     private List<Book> bookList;
 
     //one student can have multiple transaction (1:N)
-    @OneToMany(mappedBy = "my_student")
+    @OneToMany(mappedBy = "student")
     private List<Transaction> transactionList;
 
 //    //one student can only have one account (1:1)
